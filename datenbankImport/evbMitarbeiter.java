@@ -27,8 +27,8 @@ public class evbMitarbeiter {
             statement = connection.createStatement();
             
             // Execute a query
-            String sql = "SELECT * FROM mitarbeiter";
-            resultSet = statement.executeQuery(sql);
+            String mitarbeiter = "SELECT * FROM mitarbeiter";
+            resultSet = statement.executeQuery(mitarbeiter);
             
             // Process the result set
             while (resultSet.next()) {
